@@ -4,7 +4,7 @@ import java.io.*;
 public class FileOp{
     public static void main(String[] args) {
     Scanner sc=new Scanner(System.in);
-    String fn="Hi";
+    String fn="hello";
     File f=new File(fn);
     try{
     if(f.createNewFile())
